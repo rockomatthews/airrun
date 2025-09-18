@@ -25,6 +25,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "airrun",
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      "expo-apple-authentication"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "CHANGE_ME_IN_EAS"
+      },
+      "EXPO_PUBLIC_SUPABASE_URL": "https://YOUR-PROJECT.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "YOUR-ANON-KEY"
     }
   }
 }
